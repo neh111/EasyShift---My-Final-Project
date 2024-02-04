@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EasyShiftModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Employee_request_tbl">
+          <Key>
+            <PropertyRef Name="employee_request_id" />
+          </Key>
+          <Property Name="employee_request_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="employee_id" Type="int" Nullable="false" />
+          <Property Name="shift_id" Type="int" Nullable="false" />
+          <Property Name="job_id" Type="int" Nullable="false" />
+          <Property Name="priority_id" Type="int" Nullable="false" />
+          <Property Name="status" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Employee_tbl">
+          <Key>
+            <PropertyRef Name="employee_id" />
+          </Key>
+          <Property Name="employee_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="first_name" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="last_name" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="seniority_years" Type="int" Nullable="false" />
+          <Property Name="employee_id_str" Type="nvarchar" MaxLength="9" Nullable="false" />
+          <Property Name="password" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="cellphone_number" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="num_shifts_in_week" Type="int" Nullable="false" />
+          <Property Name="num_shifts_left_to_placement" Type="int" Nullable="false" />
+          <Property Name="permission_level" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Jobs_tbl">
+          <Key>
+            <PropertyRef Name="job_id" />
+          </Key>
+          <Property Name="job_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="3000" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Jobs_to_shift_tbl">
+          <Key>
+            <PropertyRef Name="jobs_to_shift_id" />
+          </Key>
+          <Property Name="jobs_to_shift_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="job_id" Type="int" Nullable="false" />
+          <Property Name="shift_id" Type="int" Nullable="false" />
+          <Property Name="num_employees_request" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Priority_tbl">
+          <Key>
+            <PropertyRef Name="priority_id" />
+          </Key>
+          <Property Name="priority_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="priority_description" Type="nvarchar" MaxLength="3000" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Shift_tbl">
+          <Key>
+            <PropertyRef Name="shift_id" />
+          </Key>
+          <Property Name="shift_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="shift_date" Type="date" Nullable="false" />
+          <Property Name="day" Type="int" Nullable="false" />
+          <Property Name="shift_type_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ShiftType_tbl">
+          <Key>
+            <PropertyRef Name="shift_type_id" />
+          </Key>
+          <Property Name="shift_type_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="beginning_time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="end_time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="description" Type="nvarchar" MaxLength="3000" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ToBeWith_tbl">
+          <Key>
+            <PropertyRef Name="to_be_with_id" />
+          </Key>
+          <Property Name="to_be_with_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="shift_id" Type="int" Nullable="false" />
+          <Property Name="employeeA_id" Type="int" Nullable="false" />
+          <Property Name="employeeB_id" Type="int" Nullable="false" />
+          <Property Name="status" Type="int" Nullable="false" />
+          <Property Name="priority_id" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Employee_request_tbl_Employee_tbl1">
+          <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee_tbl">
+              <PropertyRef Name="employee_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="employee_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Jobs_tbl">
+          <End Role="Jobs_tbl" Type="Self.Jobs_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jobs_tbl">
+              <PropertyRef Name="job_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="job_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Priority_tbl">
+          <End Role="Priority_tbl" Type="Self.Priority_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Priority_tbl">
+              <PropertyRef Name="priority_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="priority_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Priority_tbl1">
+          <End Role="Priority_tbl" Type="Self.Priority_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Priority_tbl">
+              <PropertyRef Name="priority_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="priority_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Shift_tbl">
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="shift_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Jobs_to_shift_tbl_Jobs_tbl">
+          <End Role="Jobs_tbl" Type="Self.Jobs_tbl" Multiplicity="1" />
+          <End Role="Jobs_to_shift_tbl" Type="Self.Jobs_to_shift_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jobs_tbl">
+              <PropertyRef Name="job_id" />
+            </Principal>
+            <Dependent Role="Jobs_to_shift_tbl">
+              <PropertyRef Name="job_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Jobs_to_shift_tbl_Shift_tbl">
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+          <End Role="Jobs_to_shift_tbl" Type="Self.Jobs_to_shift_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Principal>
+            <Dependent Role="Jobs_to_shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Shift_tbl_ShiftType_tbl">
+          <End Role="ShiftType_tbl" Type="Self.ShiftType_tbl" Multiplicity="1" />
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShiftType_tbl">
+              <PropertyRef Name="shift_type_id" />
+            </Principal>
+            <Dependent Role="Shift_tbl">
+              <PropertyRef Name="shift_type_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Employee_tbl">
+          <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee_tbl">
+              <PropertyRef Name="employee_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="employeeA_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Employee_tbl1">
+          <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee_tbl">
+              <PropertyRef Name="employee_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="employeeB_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Priority_tbl">
+          <End Role="Priority_tbl" Type="Self.Priority_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Priority_tbl">
+              <PropertyRef Name="priority_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="priority_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Shift_tbl">
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="shift_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EasyShiftModelStoreContainer">
+          <EntitySet Name="Employee_request_tbl" EntityType="Self.Employee_request_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Employee_tbl" EntityType="Self.Employee_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Jobs_tbl" EntityType="Self.Jobs_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Jobs_to_shift_tbl" EntityType="Self.Jobs_to_shift_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Priority_tbl" EntityType="Self.Priority_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Shift_tbl" EntityType="Self.Shift_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ShiftType_tbl" EntityType="Self.ShiftType_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ToBeWith_tbl" EntityType="Self.ToBeWith_tbl" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Employee_request_tbl_Employee_tbl1" Association="Self.FK_Employee_request_tbl_Employee_tbl1">
+            <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Jobs_tbl" Association="Self.FK_Employee_request_tbl_Jobs_tbl">
+            <End Role="Jobs_tbl" EntitySet="Jobs_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Priority_tbl" Association="Self.FK_Employee_request_tbl_Priority_tbl">
+            <End Role="Priority_tbl" EntitySet="Priority_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Priority_tbl1" Association="Self.FK_Employee_request_tbl_Priority_tbl1">
+            <End Role="Priority_tbl" EntitySet="Priority_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Shift_tbl" Association="Self.FK_Employee_request_tbl_Shift_tbl">
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Jobs_to_shift_tbl_Jobs_tbl" Association="Self.FK_Jobs_to_shift_tbl_Jobs_tbl">
+            <End Role="Jobs_tbl" EntitySet="Jobs_tbl" />
+            <End Role="Jobs_to_shift_tbl" EntitySet="Jobs_to_shift_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Jobs_to_shift_tbl_Shift_tbl" Association="Self.FK_Jobs_to_shift_tbl_Shift_tbl">
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+            <End Role="Jobs_to_shift_tbl" EntitySet="Jobs_to_shift_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Shift_tbl_ShiftType_tbl" Association="Self.FK_Shift_tbl_ShiftType_tbl">
+            <End Role="ShiftType_tbl" EntitySet="ShiftType_tbl" />
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Employee_tbl" Association="Self.FK_ToBeWith_tbl_Employee_tbl">
+            <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Employee_tbl1" Association="Self.FK_ToBeWith_tbl_Employee_tbl1">
+            <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Priority_tbl" Association="Self.FK_ToBeWith_tbl_Priority_tbl">
+            <End Role="Priority_tbl" EntitySet="Priority_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Shift_tbl" Association="Self.FK_ToBeWith_tbl_Shift_tbl">
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EasyShiftModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Employee_request_tbl">
+          <Key>
+            <PropertyRef Name="employee_request_id" />
+          </Key>
+          <Property Name="employee_request_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="employee_id" Type="Int32" Nullable="false" />
+          <Property Name="shift_id" Type="Int32" Nullable="false" />
+          <Property Name="job_id" Type="Int32" Nullable="false" />
+          <Property Name="priority_id" Type="Int32" Nullable="false" />
+          <Property Name="status" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employee_tbl" Relationship="Self.FK_Employee_request_tbl_Employee_tbl1" FromRole="Employee_request_tbl" ToRole="Employee_tbl" />
+          <NavigationProperty Name="Jobs_tbl" Relationship="Self.FK_Employee_request_tbl_Jobs_tbl" FromRole="Employee_request_tbl" ToRole="Jobs_tbl" />
+          <NavigationProperty Name="Priority_tbl" Relationship="Self.FK_Employee_request_tbl_Priority_tbl" FromRole="Employee_request_tbl" ToRole="Priority_tbl" />
+          <NavigationProperty Name="Priority_tbl1" Relationship="Self.FK_Employee_request_tbl_Priority_tbl1" FromRole="Employee_request_tbl" ToRole="Priority_tbl" />
+          <NavigationProperty Name="Shift_tbl" Relationship="Self.FK_Employee_request_tbl_Shift_tbl" FromRole="Employee_request_tbl" ToRole="Shift_tbl" />
+        </EntityType>
+        <EntityType Name="Employee_tbl">
+          <Key>
+            <PropertyRef Name="employee_id" />
+          </Key>
+          <Property Name="employee_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="first_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="last_name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="seniority_years" Type="Int32" Nullable="false" />
+          <Property Name="employee_id_str" Type="String" MaxLength="9" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="cellphone_number" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="num_shifts_in_week" Type="Int32" Nullable="false" />
+          <Property Name="num_shifts_left_to_placement" Type="Int32" Nullable="false" />
+          <Property Name="permission_level" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Employee_request_tbl" Relationship="Self.FK_Employee_request_tbl_Employee_tbl1" FromRole="Employee_tbl" ToRole="Employee_request_tbl" />
+          <NavigationProperty Name="ToBeWith_tbl" Relationship="Self.FK_ToBeWith_tbl_Employee_tbl" FromRole="Employee_tbl" ToRole="ToBeWith_tbl" />
+          <NavigationProperty Name="ToBeWith_tbl1" Relationship="Self.FK_ToBeWith_tbl_Employee_tbl1" FromRole="Employee_tbl" ToRole="ToBeWith_tbl" />
+        </EntityType>
+        <EntityType Name="Jobs_tbl">
+          <Key>
+            <PropertyRef Name="job_id" />
+          </Key>
+          <Property Name="job_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="description" Type="String" MaxLength="3000" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Employee_request_tbl" Relationship="Self.FK_Employee_request_tbl_Jobs_tbl" FromRole="Jobs_tbl" ToRole="Employee_request_tbl" />
+          <NavigationProperty Name="Jobs_to_shift_tbl" Relationship="Self.FK_Jobs_to_shift_tbl_Jobs_tbl" FromRole="Jobs_tbl" ToRole="Jobs_to_shift_tbl" />
+        </EntityType>
+        <EntityType Name="Jobs_to_shift_tbl">
+          <Key>
+            <PropertyRef Name="jobs_to_shift_id" />
+          </Key>
+          <Property Name="jobs_to_shift_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="job_id" Type="Int32" Nullable="false" />
+          <Property Name="shift_id" Type="Int32" Nullable="false" />
+          <Property Name="num_employees_request" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Jobs_tbl" Relationship="Self.FK_Jobs_to_shift_tbl_Jobs_tbl" FromRole="Jobs_to_shift_tbl" ToRole="Jobs_tbl" />
+          <NavigationProperty Name="Shift_tbl" Relationship="Self.FK_Jobs_to_shift_tbl_Shift_tbl" FromRole="Jobs_to_shift_tbl" ToRole="Shift_tbl" />
+        </EntityType>
+        <EntityType Name="Priority_tbl">
+          <Key>
+            <PropertyRef Name="priority_id" />
+          </Key>
+          <Property Name="priority_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="priority_description" Type="String" MaxLength="3000" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Employee_request_tbl" Relationship="Self.FK_Employee_request_tbl_Priority_tbl" FromRole="Priority_tbl" ToRole="Employee_request_tbl" />
+          <NavigationProperty Name="Employee_request_tbl1" Relationship="Self.FK_Employee_request_tbl_Priority_tbl1" FromRole="Priority_tbl" ToRole="Employee_request_tbl" />
+          <NavigationProperty Name="ToBeWith_tbl" Relationship="Self.FK_ToBeWith_tbl_Priority_tbl" FromRole="Priority_tbl" ToRole="ToBeWith_tbl" />
+        </EntityType>
+        <EntityType Name="Shift_tbl">
+          <Key>
+            <PropertyRef Name="shift_id" />
+          </Key>
+          <Property Name="shift_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="shift_date" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="day" Type="Int32" Nullable="false" />
+          <Property Name="shift_type_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employee_request_tbl" Relationship="Self.FK_Employee_request_tbl_Shift_tbl" FromRole="Shift_tbl" ToRole="Employee_request_tbl" />
+          <NavigationProperty Name="Jobs_to_shift_tbl" Relationship="Self.FK_Jobs_to_shift_tbl_Shift_tbl" FromRole="Shift_tbl" ToRole="Jobs_to_shift_tbl" />
+          <NavigationProperty Name="ShiftType_tbl" Relationship="Self.FK_Shift_tbl_ShiftType_tbl" FromRole="Shift_tbl" ToRole="ShiftType_tbl" />
+          <NavigationProperty Name="ToBeWith_tbl" Relationship="Self.FK_ToBeWith_tbl_Shift_tbl" FromRole="Shift_tbl" ToRole="ToBeWith_tbl" />
+        </EntityType>
+        <EntityType Name="ShiftType_tbl">
+          <Key>
+            <PropertyRef Name="shift_type_id" />
+          </Key>
+          <Property Name="shift_type_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="beginning_time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="end_time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="description" Type="String" MaxLength="3000" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Shift_tbl" Relationship="Self.FK_Shift_tbl_ShiftType_tbl" FromRole="ShiftType_tbl" ToRole="Shift_tbl" />
+        </EntityType>
+        <EntityType Name="ToBeWith_tbl">
+          <Key>
+            <PropertyRef Name="to_be_with_id" />
+          </Key>
+          <Property Name="to_be_with_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="shift_id" Type="Int32" Nullable="false" />
+          <Property Name="employeeA_id" Type="Int32" Nullable="false" />
+          <Property Name="employeeB_id" Type="Int32" Nullable="false" />
+          <Property Name="status" Type="Int32" Nullable="false" />
+          <Property Name="priority_id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employee_tbl" Relationship="Self.FK_ToBeWith_tbl_Employee_tbl" FromRole="ToBeWith_tbl" ToRole="Employee_tbl" />
+          <NavigationProperty Name="Employee_tbl1" Relationship="Self.FK_ToBeWith_tbl_Employee_tbl1" FromRole="ToBeWith_tbl" ToRole="Employee_tbl" />
+          <NavigationProperty Name="Priority_tbl" Relationship="Self.FK_ToBeWith_tbl_Priority_tbl" FromRole="ToBeWith_tbl" ToRole="Priority_tbl" />
+          <NavigationProperty Name="Shift_tbl" Relationship="Self.FK_ToBeWith_tbl_Shift_tbl" FromRole="ToBeWith_tbl" ToRole="Shift_tbl" />
+        </EntityType>
+        <Association Name="FK_Employee_request_tbl_Employee_tbl1">
+          <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee_tbl">
+              <PropertyRef Name="employee_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="employee_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Jobs_tbl">
+          <End Role="Jobs_tbl" Type="Self.Jobs_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jobs_tbl">
+              <PropertyRef Name="job_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="job_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Priority_tbl">
+          <End Role="Priority_tbl" Type="Self.Priority_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Priority_tbl">
+              <PropertyRef Name="priority_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="priority_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Priority_tbl1">
+          <End Role="Priority_tbl" Type="Self.Priority_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Priority_tbl">
+              <PropertyRef Name="priority_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="priority_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Employee_request_tbl_Shift_tbl">
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+          <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Principal>
+            <Dependent Role="Employee_request_tbl">
+              <PropertyRef Name="shift_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Employee_tbl">
+          <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee_tbl">
+              <PropertyRef Name="employee_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="employeeA_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Employee_tbl1">
+          <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee_tbl">
+              <PropertyRef Name="employee_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="employeeB_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Jobs_to_shift_tbl_Jobs_tbl">
+          <End Role="Jobs_tbl" Type="Self.Jobs_tbl" Multiplicity="1" />
+          <End Role="Jobs_to_shift_tbl" Type="Self.Jobs_to_shift_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Jobs_tbl">
+              <PropertyRef Name="job_id" />
+            </Principal>
+            <Dependent Role="Jobs_to_shift_tbl">
+              <PropertyRef Name="job_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Jobs_to_shift_tbl_Shift_tbl">
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+          <End Role="Jobs_to_shift_tbl" Type="Self.Jobs_to_shift_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Principal>
+            <Dependent Role="Jobs_to_shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Priority_tbl">
+          <End Role="Priority_tbl" Type="Self.Priority_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Priority_tbl">
+              <PropertyRef Name="priority_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="priority_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Shift_tbl_ShiftType_tbl">
+          <End Role="ShiftType_tbl" Type="Self.ShiftType_tbl" Multiplicity="1" />
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShiftType_tbl">
+              <PropertyRef Name="shift_type_id" />
+            </Principal>
+            <Dependent Role="Shift_tbl">
+              <PropertyRef Name="shift_type_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ToBeWith_tbl_Shift_tbl">
+          <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+          <End Role="ToBeWith_tbl" Type="Self.ToBeWith_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Shift_tbl">
+              <PropertyRef Name="shift_id" />
+            </Principal>
+            <Dependent Role="ToBeWith_tbl">
+              <PropertyRef Name="shift_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EasyShiftEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Employee_request_tbl" EntityType="Self.Employee_request_tbl" />
+          <EntitySet Name="Employee_tbl" EntityType="Self.Employee_tbl" />
+          <EntitySet Name="Jobs_tbl" EntityType="Self.Jobs_tbl" />
+          <EntitySet Name="Jobs_to_shift_tbl" EntityType="Self.Jobs_to_shift_tbl" />
+          <EntitySet Name="Priority_tbl" EntityType="Self.Priority_tbl" />
+          <EntitySet Name="Shift_tbl" EntityType="Self.Shift_tbl" />
+          <EntitySet Name="ShiftType_tbl" EntityType="Self.ShiftType_tbl" />
+          <EntitySet Name="ToBeWith_tbl" EntityType="Self.ToBeWith_tbl" />
+          <AssociationSet Name="FK_Employee_request_tbl_Employee_tbl1" Association="Self.FK_Employee_request_tbl_Employee_tbl1">
+            <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Jobs_tbl" Association="Self.FK_Employee_request_tbl_Jobs_tbl">
+            <End Role="Jobs_tbl" EntitySet="Jobs_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Priority_tbl" Association="Self.FK_Employee_request_tbl_Priority_tbl">
+            <End Role="Priority_tbl" EntitySet="Priority_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Priority_tbl1" Association="Self.FK_Employee_request_tbl_Priority_tbl1">
+            <End Role="Priority_tbl" EntitySet="Priority_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Employee_request_tbl_Shift_tbl" Association="Self.FK_Employee_request_tbl_Shift_tbl">
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+            <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Employee_tbl" Association="Self.FK_ToBeWith_tbl_Employee_tbl">
+            <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Employee_tbl1" Association="Self.FK_ToBeWith_tbl_Employee_tbl1">
+            <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Jobs_to_shift_tbl_Jobs_tbl" Association="Self.FK_Jobs_to_shift_tbl_Jobs_tbl">
+            <End Role="Jobs_tbl" EntitySet="Jobs_tbl" />
+            <End Role="Jobs_to_shift_tbl" EntitySet="Jobs_to_shift_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Jobs_to_shift_tbl_Shift_tbl" Association="Self.FK_Jobs_to_shift_tbl_Shift_tbl">
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+            <End Role="Jobs_to_shift_tbl" EntitySet="Jobs_to_shift_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Priority_tbl" Association="Self.FK_ToBeWith_tbl_Priority_tbl">
+            <End Role="Priority_tbl" EntitySet="Priority_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Shift_tbl_ShiftType_tbl" Association="Self.FK_Shift_tbl_ShiftType_tbl">
+            <End Role="ShiftType_tbl" EntitySet="ShiftType_tbl" />
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ToBeWith_tbl_Shift_tbl" Association="Self.FK_ToBeWith_tbl_Shift_tbl">
+            <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+            <End Role="ToBeWith_tbl" EntitySet="ToBeWith_tbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EasyShiftModelStoreContainer" CdmEntityContainer="EasyShiftEntities1">
+          <EntitySetMapping Name="Employee_request_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.Employee_request_tbl">
+              <MappingFragment StoreEntitySet="Employee_request_tbl">
+                <ScalarProperty Name="employee_request_id" ColumnName="employee_request_id" />
+                <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+                <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="priority_id" ColumnName="priority_id" />
+                <ScalarProperty Name="status" ColumnName="status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employee_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.Employee_tbl">
+              <MappingFragment StoreEntitySet="Employee_tbl">
+                <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+                <ScalarProperty Name="first_name" ColumnName="first_name" />
+                <ScalarProperty Name="last_name" ColumnName="last_name" />
+                <ScalarProperty Name="seniority_years" ColumnName="seniority_years" />
+                <ScalarProperty Name="employee_id_str" ColumnName="employee_id_str" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="mail" ColumnName="mail" />
+                <ScalarProperty Name="cellphone_number" ColumnName="cellphone_number" />
+                <ScalarProperty Name="num_shifts_in_week" ColumnName="num_shifts_in_week" />
+                <ScalarProperty Name="num_shifts_left_to_placement" ColumnName="num_shifts_left_to_placement" />
+                <ScalarProperty Name="permission_level" ColumnName="permission_level" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Jobs_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.Jobs_tbl">
+              <MappingFragment StoreEntitySet="Jobs_tbl">
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Jobs_to_shift_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.Jobs_to_shift_tbl">
+              <MappingFragment StoreEntitySet="Jobs_to_shift_tbl">
+                <ScalarProperty Name="jobs_to_shift_id" ColumnName="jobs_to_shift_id" />
+                <ScalarProperty Name="job_id" ColumnName="job_id" />
+                <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+                <ScalarProperty Name="num_employees_request" ColumnName="num_employees_request" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Priority_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.Priority_tbl">
+              <MappingFragment StoreEntitySet="Priority_tbl">
+                <ScalarProperty Name="priority_id" ColumnName="priority_id" />
+                <ScalarProperty Name="priority_description" ColumnName="priority_description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Shift_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.Shift_tbl">
+              <MappingFragment StoreEntitySet="Shift_tbl">
+                <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+                <ScalarProperty Name="shift_date" ColumnName="shift_date" />
+                <ScalarProperty Name="day" ColumnName="day" />
+                <ScalarProperty Name="shift_type_id" ColumnName="shift_type_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ShiftType_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.ShiftType_tbl">
+              <MappingFragment StoreEntitySet="ShiftType_tbl">
+                <ScalarProperty Name="shift_type_id" ColumnName="shift_type_id" />
+                <ScalarProperty Name="beginning_time" ColumnName="beginning_time" />
+                <ScalarProperty Name="end_time" ColumnName="end_time" />
+                <ScalarProperty Name="description" ColumnName="description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ToBeWith_tbl">
+            <EntityTypeMapping TypeName="EasyShiftModel.ToBeWith_tbl">
+              <MappingFragment StoreEntitySet="ToBeWith_tbl">
+                <ScalarProperty Name="to_be_with_id" ColumnName="to_be_with_id" />
+                <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+                <ScalarProperty Name="employeeA_id" ColumnName="employeeA_id" />
+                <ScalarProperty Name="employeeB_id" ColumnName="employeeB_id" />
+                <ScalarProperty Name="status" ColumnName="status" />
+                <ScalarProperty Name="priority_id" ColumnName="priority_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

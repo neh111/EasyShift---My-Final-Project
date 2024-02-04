@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6171253cebe14e6e9d8bcf1e9d13f924" Name="Diagram1">
+        <EntityTypeShape EntityType="EasyShiftModel.Employee_request_tbl" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyShiftModel.Employee_tbl" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyShiftModel.Jobs_tbl" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyShiftModel.Jobs_to_shift_tbl" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyShiftModel.Priority_tbl" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyShiftModel.Shift_tbl" Width="1.5" PointX="0.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyShiftModel.ShiftType_tbl" Width="1.5" PointX="1.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EasyShiftModel.ToBeWith_tbl" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <AssociationConnector Association="EasyShiftModel.FK_Employee_request_tbl_Employee_tbl1" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_Employee_request_tbl_Jobs_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_Employee_request_tbl_Priority_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_Employee_request_tbl_Priority_tbl1" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_Employee_request_tbl_Shift_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_ToBeWith_tbl_Employee_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_ToBeWith_tbl_Employee_tbl1" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_Jobs_to_shift_tbl_Jobs_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_Jobs_to_shift_tbl_Shift_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_ToBeWith_tbl_Priority_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_Shift_tbl_ShiftType_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EasyShiftModel.FK_ToBeWith_tbl_Shift_tbl" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

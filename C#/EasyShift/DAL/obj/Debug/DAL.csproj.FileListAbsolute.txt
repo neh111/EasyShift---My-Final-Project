@@ -1,0 +1,84 @@
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\obj\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\DAL\obj\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\obj\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\DAL\obj\Debug\DAL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\DAL.dll.config
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\DAL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\DAL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CopyComplete
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\DAL\obj\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\obj\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\DAL\obj\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\obj\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\DAL\obj\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\obj\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\DAL\obj\Debug\DAL.pdb

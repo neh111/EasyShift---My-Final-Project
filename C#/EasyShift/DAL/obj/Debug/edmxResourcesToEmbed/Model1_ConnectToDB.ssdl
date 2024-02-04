@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EeasyShiftModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Employee_request_tbl">
+    <Key>
+      <PropertyRef Name="employee_request_id" />
+    </Key>
+    <Property Name="employee_request_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="employee_id" Type="int" Nullable="false" />
+    <Property Name="start_date" Type="date" Nullable="false" />
+    <Property Name="end_date" Type="date" Nullable="false" />
+    <Property Name="priority" Type="int" Nullable="false" />
+    <Property Name="types_request_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employee_schedule_tbl">
+    <Key>
+      <PropertyRef Name="employee_schedule_id" />
+    </Key>
+    <Property Name="employee_schedule_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="employee_id" Type="int" Nullable="false" />
+    <Property Name="day" Type="int" Nullable="false" />
+    <Property Name="shift_type_id" Type="int" Nullable="false" />
+    <Property Name="priority" Type="int" Nullable="false" />
+    <Property Name="start_date" Type="date" Nullable="false" />
+    <Property Name="end_date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employee_tbl">
+    <Key>
+      <PropertyRef Name="employee_id" />
+    </Key>
+    <Property Name="employee_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="first_name" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="last_name" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="seniority_years" Type="int" Nullable="false" />
+    <Property Name="shift_manager" Type="int" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="cellphone_number" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="num_shifts_in_week" Type="int" Nullable="false" />
+    <Property Name="employee_id_number" Type="nvarchar" MaxLength="9" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PlacementResults_tbl">
+    <Key>
+      <PropertyRef Name="result_id" />
+    </Key>
+    <Property Name="result_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="shift_id" Type="int" Nullable="false" />
+    <Property Name="employee_id" Type="int" Nullable="false" />
+    <Property Name="satisfaction_level" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Shift_tbl">
+    <Key>
+      <PropertyRef Name="shift_id" />
+    </Key>
+    <Property Name="shift_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="shift_date" Type="date" Nullable="false" />
+    <Property Name="shift_type_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ShiftManager_tbl">
+    <Key>
+      <PropertyRef Name="shift_manager_id" />
+    </Key>
+    <Property Name="shift_manager_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="shift_id" Type="int" Nullable="false" />
+    <Property Name="employee_id" Type="int" />
+  </EntityType>
+  <EntityType Name="ShiftType_tbl">
+    <Key>
+      <PropertyRef Name="shift_type_id" />
+    </Key>
+    <Property Name="shift_type_id" Type="int" Nullable="false" />
+    <Property Name="beginning_time" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="end_time" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="num_employees_required" Type="int" Nullable="false" />
+    <Property Name="status" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Types_request_description_tbl">
+    <Key>
+      <PropertyRef Name="types_request_description_id" />
+    </Key>
+    <Property Name="types_request_description_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="description_text" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="employee_id" Type="int" />
+  </EntityType>
+  <EntityType Name="Types_request_tbl">
+    <Key>
+      <PropertyRef Name="types_request_id" />
+    </Key>
+    <Property Name="types_request_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="types_request_description_id" Type="int" Nullable="false" />
+    <Property Name="text" Type="nvarchar" MaxLength="4000" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Employee_request_tbl_Employee_tbl">
+    <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+    <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee_tbl">
+        <PropertyRef Name="employee_id" />
+      </Principal>
+      <Dependent Role="Employee_request_tbl">
+        <PropertyRef Name="employee_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_request_tbl_Types_request_tbl">
+    <End Role="Types_request_tbl" Type="Self.Types_request_tbl" Multiplicity="1" />
+    <End Role="Employee_request_tbl" Type="Self.Employee_request_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Types_request_tbl">
+        <PropertyRef Name="types_request_id" />
+      </Principal>
+      <Dependent Role="Employee_request_tbl">
+        <PropertyRef Name="types_request_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_schedule_tbl_Employee_tbl">
+    <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+    <End Role="Employee_schedule_tbl" Type="Self.Employee_schedule_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee_tbl">
+        <PropertyRef Name="employee_id" />
+      </Principal>
+      <Dependent Role="Employee_schedule_tbl">
+        <PropertyRef Name="employee_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_schedule_tbl_ShiftType_tbl">
+    <End Role="ShiftType_tbl" Type="Self.ShiftType_tbl" Multiplicity="1" />
+    <End Role="Employee_schedule_tbl" Type="Self.Employee_schedule_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShiftType_tbl">
+        <PropertyRef Name="shift_type_id" />
+      </Principal>
+      <Dependent Role="Employee_schedule_tbl">
+        <PropertyRef Name="shift_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PlacementResults_tbl_Employee_tbl">
+    <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="1" />
+    <End Role="PlacementResults_tbl" Type="Self.PlacementResults_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee_tbl">
+        <PropertyRef Name="employee_id" />
+      </Principal>
+      <Dependent Role="PlacementResults_tbl">
+        <PropertyRef Name="employee_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PlacementResults_tbl_Shift_tbl">
+    <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+    <End Role="PlacementResults_tbl" Type="Self.PlacementResults_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shift_tbl">
+        <PropertyRef Name="shift_id" />
+      </Principal>
+      <Dependent Role="PlacementResults_tbl">
+        <PropertyRef Name="shift_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Shift_tbl_ShiftType_tbl">
+    <End Role="ShiftType_tbl" Type="Self.ShiftType_tbl" Multiplicity="1" />
+    <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShiftType_tbl">
+        <PropertyRef Name="shift_type_id" />
+      </Principal>
+      <Dependent Role="Shift_tbl">
+        <PropertyRef Name="shift_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShiftManager_tbl_Shift_tbl">
+    <End Role="Shift_tbl" Type="Self.Shift_tbl" Multiplicity="1" />
+    <End Role="ShiftManager_tbl" Type="Self.ShiftManager_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shift_tbl">
+        <PropertyRef Name="shift_id" />
+      </Principal>
+      <Dependent Role="ShiftManager_tbl">
+        <PropertyRef Name="shift_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Types_request_description_tbl_Employee_tbl">
+    <End Role="Employee_tbl" Type="Self.Employee_tbl" Multiplicity="0..1" />
+    <End Role="Types_request_description_tbl" Type="Self.Types_request_description_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee_tbl">
+        <PropertyRef Name="employee_id" />
+      </Principal>
+      <Dependent Role="Types_request_description_tbl">
+        <PropertyRef Name="employee_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Types_request_tbl_Types_request_description_tbl">
+    <End Role="Types_request_description_tbl" Type="Self.Types_request_description_tbl" Multiplicity="1" />
+    <End Role="Types_request_tbl" Type="Self.Types_request_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Types_request_description_tbl">
+        <PropertyRef Name="types_request_description_id" />
+      </Principal>
+      <Dependent Role="Types_request_tbl">
+        <PropertyRef Name="types_request_description_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="EeasyShiftModelStoreContainer">
+    <EntitySet Name="Employee_request_tbl" EntityType="Self.Employee_request_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee_schedule_tbl" EntityType="Self.Employee_schedule_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee_tbl" EntityType="Self.Employee_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PlacementResults_tbl" EntityType="Self.PlacementResults_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shift_tbl" EntityType="Self.Shift_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShiftManager_tbl" EntityType="Self.ShiftManager_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ShiftType_tbl" EntityType="Self.ShiftType_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Types_request_description_tbl" EntityType="Self.Types_request_description_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Types_request_tbl" EntityType="Self.Types_request_tbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Employee_request_tbl_Employee_tbl" Association="Self.FK_Employee_request_tbl_Employee_tbl">
+      <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+      <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_request_tbl_Types_request_tbl" Association="Self.FK_Employee_request_tbl_Types_request_tbl">
+      <End Role="Types_request_tbl" EntitySet="Types_request_tbl" />
+      <End Role="Employee_request_tbl" EntitySet="Employee_request_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_schedule_tbl_Employee_tbl" Association="Self.FK_Employee_schedule_tbl_Employee_tbl">
+      <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+      <End Role="Employee_schedule_tbl" EntitySet="Employee_schedule_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_schedule_tbl_ShiftType_tbl" Association="Self.FK_Employee_schedule_tbl_ShiftType_tbl">
+      <End Role="ShiftType_tbl" EntitySet="ShiftType_tbl" />
+      <End Role="Employee_schedule_tbl" EntitySet="Employee_schedule_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PlacementResults_tbl_Employee_tbl" Association="Self.FK_PlacementResults_tbl_Employee_tbl">
+      <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+      <End Role="PlacementResults_tbl" EntitySet="PlacementResults_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PlacementResults_tbl_Shift_tbl" Association="Self.FK_PlacementResults_tbl_Shift_tbl">
+      <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+      <End Role="PlacementResults_tbl" EntitySet="PlacementResults_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Shift_tbl_ShiftType_tbl" Association="Self.FK_Shift_tbl_ShiftType_tbl">
+      <End Role="ShiftType_tbl" EntitySet="ShiftType_tbl" />
+      <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShiftManager_tbl_Shift_tbl" Association="Self.FK_ShiftManager_tbl_Shift_tbl">
+      <End Role="Shift_tbl" EntitySet="Shift_tbl" />
+      <End Role="ShiftManager_tbl" EntitySet="ShiftManager_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Types_request_description_tbl_Employee_tbl" Association="Self.FK_Types_request_description_tbl_Employee_tbl">
+      <End Role="Employee_tbl" EntitySet="Employee_tbl" />
+      <End Role="Types_request_description_tbl" EntitySet="Types_request_description_tbl" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Types_request_tbl_Types_request_description_tbl" Association="Self.FK_Types_request_tbl_Types_request_description_tbl">
+      <End Role="Types_request_description_tbl" EntitySet="Types_request_description_tbl" />
+      <End Role="Types_request_tbl" EntitySet="Types_request_tbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EasyShiftModelStoreContainer" CdmEntityContainer="EasyShiftEntities">
+    <EntitySetMapping Name="Employee_request_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.Employee_request_tbl">
+        <MappingFragment StoreEntitySet="Employee_request_tbl">
+          <ScalarProperty Name="employee_request_id" ColumnName="employee_request_id" />
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="priority_id" ColumnName="priority_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.Employee_tbl">
+        <MappingFragment StoreEntitySet="Employee_tbl">
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="seniority_years" ColumnName="seniority_years" />
+          <ScalarProperty Name="employee_id_str" ColumnName="employee_id_str" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="cellphone_number" ColumnName="cellphone_number" />
+          <ScalarProperty Name="num_shifts_in_week" ColumnName="num_shifts_in_week" />
+          <ScalarProperty Name="num_shifts_left_to_placement" ColumnName="num_shifts_left_to_placement" />
+          <ScalarProperty Name="permission_level" ColumnName="permission_level" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jobs_to_shift_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.Jobs_to_shift_tbl">
+        <MappingFragment StoreEntitySet="Jobs_to_shift_tbl">
+          <ScalarProperty Name="jobs_to_shift_id" ColumnName="jobs_to_shift_id" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+          <ScalarProperty Name="num_employees_requierd" ColumnName="num_employees_requierd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlacementResults_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.PlacementResults_tbl">
+        <MappingFragment StoreEntitySet="PlacementResults_tbl">
+          <ScalarProperty Name="result_id" ColumnName="result_id" />
+          <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+          <ScalarProperty Name="statisfaction_level" ColumnName="statisfaction_level" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Priority_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.Priority_tbl">
+        <MappingFragment StoreEntitySet="Priority_tbl">
+          <ScalarProperty Name="priority_id" ColumnName="priority_id" />
+          <ScalarProperty Name="priority_description" ColumnName="priority_description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shift_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.Shift_tbl">
+        <MappingFragment StoreEntitySet="Shift_tbl">
+          <ScalarProperty Name="shift_id" ColumnName="shift_id" />
+          <ScalarProperty Name="shift_date" ColumnName="shift_date" />
+          <ScalarProperty Name="day" ColumnName="day" />
+          <ScalarProperty Name="shift_type_id" ColumnName="shift_type_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ShiftType_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.ShiftType_tbl">
+        <MappingFragment StoreEntitySet="ShiftType_tbl">
+          <ScalarProperty Name="shift_type_id" ColumnName="shift_type_id" />
+          <ScalarProperty Name="beginning_time" ColumnName="beginning_time" />
+          <ScalarProperty Name="end_time" ColumnName="end_time" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JobType_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.JobType_tbl">
+        <MappingFragment StoreEntitySet="JobType_tbl">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="jobType_id" ColumnName="jobType_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jobs_tbl">
+      <EntityTypeMapping TypeName="EasyShiftModel.Jobs_tbl">
+        <MappingFragment StoreEntitySet="Jobs_tbl">
+          <ScalarProperty Name="jobType_id" ColumnName="jobType_id" />
+          <ScalarProperty Name="isSplit" ColumnName="isSplit" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="job_id" ColumnName="job_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

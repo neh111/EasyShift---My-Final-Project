@@ -1,0 +1,460 @@
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\יד\פרויקט גמר\EesyShift\EasyShift\BLL\obj\Debug\BLL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\BLL.dll.config
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\BLL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\BLL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\DAL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\DTO.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\EntityFramework.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\AutoMapper.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\DAL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\DAL.dll.config
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\DTO.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\DTO.dll.config
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\EntityFramework.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\bin\Debug\AutoMapper.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\obj\Debug\BLL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\Easy Shift\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\ניסוי לפתרון-החמישי למאי\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בניית עץ אחיות בשיטת BFS 15.5.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\BLL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DAL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DTO.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.dll
+L:\שנה ב\משרד החינוך\אנחנו\נחמי הלפגוט\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\עץ אחיות מחולק לטאסקים 16.5.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\פרויקט ללא תתי קטגוריות 2.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\חסכון קריאות לשרת 3.6.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\צמצום בניית ילדים 6.6.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\form ללא\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\BLL.dll
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DAL.dll
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DTO.dll
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.dll
+C:\תכנות\שנה ב\פרויקט EasyShift\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\מאסתי אקרמן\צמצום בניית ילדים וללא form\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\7.6.2022 נסיון תכנון דינמי\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\8.6.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\סוג של תכנון דינמי ללא מטריצה 8.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות משמרות 9.6.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\בדיקת רציפות וטאסקים 9.6.2022\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\9.6.2022מיון על פי שנות וותק ובקשות עובד\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.pdb
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.dll.config
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.dll
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.pdb
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.dll
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.dll
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.dll
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\AutoMapper.dll
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.pdb
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.dll.config
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.pdb
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.dll.config
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.xml
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\AutoMapper.xml
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.dll
+E:\פרויקט גמר\גרסאות פרויקט\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\מאסתיי\c#\10.6.2022 classDB סדור\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\obj\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\obj\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\BLL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\BLL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\BLL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\DAL.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\DTO.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\AutoMapper.dll
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\DAL.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\DAL.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\DTO.pdb
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\DTO.dll.config
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\bin\Debug\AutoMapper.xml
+C:\Users\Nechami\Desktop\תכנות\פרויקט גמר\גרסאות עם ריאקט\הכנסות לדטה בייס\EasyShift\BLL\obj\Debug\BLL.csproj.CopyComplete

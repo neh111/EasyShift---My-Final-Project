@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="17de94a06ab047e19b4c7ae1a8927c7b" Name="Diagram1">
+        <EntityTypeShape EntityType="EeasyShiftModel.Emoloyee_request_tbl" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.Employee_schedule_tbl" Width="1.5" PointX="6" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.Employee_tbl" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.PlacementResults_tbl" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.Shift_tbl" Width="1.5" PointX="0.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.ShiftManager_tbl" Width="1.5" PointX="3" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.ShiftType_tbl" Width="1.5" PointX="6.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.Types_request_description_tbl" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EeasyShiftModel.Types_request_tbl" Width="1.5" PointX="3.625" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="EeasyShiftModel.FK_Emoloyee_request_tbl_Employee_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_Employee_schedule_tbl_Employee_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_Employee_schedule_tbl_ShiftType_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_PlacementResults_tbl_Employee_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_ShiftManager_tbl_Employee_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_PlacementResults_tbl_Shift_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_Shift_tbl_ShiftType_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_ShiftManager_tbl_Shift_tbl" ManuallyRouted="false" />
+        <AssociationConnector Association="EeasyShiftModel.FK_Types_request_tbl_Types_request_description_tbl" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="EeasyShiftModel.Employee_request_tbl" Width="1.5" PointX="8.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
